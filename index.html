@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <strong>Mi amorcito 💗</strong>
+                    <p>
+                        eres lo mejor que he podido conocer en este mundo mi niña bonita<br>
+                        Te amo infinitamente, me salvaste la vida y me diste una nueva,
+                        Se que no soy el mejor novio del mundo pero me esfuerzo dia a dia<br>
+                        por ti y para darte lo que te mereces, lo mejor mi amor, gracias por
+                        llegar a mi vida, Te amo infinitamente💗.<br>
+                    </p>
+                    <p>Con mucho amor tu futuro esposo 💖🥺</p>
+                </div>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+    <img src="image.png"Photo 1" class="photo top-left">
+    <img src="14-2.jpeg" alt="Photo 2" class="photo top-right">
+    <img src="14-3.jpeg" alt="Photo 3" class="photo bottom-left">
+    <img src="14-4.jpeg" alt="Photo 4" class="photo bottom-right">
+</div>
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
+</body>
+</html>
